@@ -1,0 +1,108 @@
+#one_thing{
+    height: 600px;
+}
+
+.container{
+
+    height: 700px;
+
+}
+
+#one_thing .container{
+    width: 950px;
+}
+
+.desk{
+    margin-left: 55%;
+    margin-top: -45%;
+}
+
+#Hidden{
+    font-family: "FuturicaBook";
+    color: black;
+    font-size: 38px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#image{
+    height: 420px;
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+
+#Description{
+    width: 250px;
+    font-size: 18px;
+    font-family: "FuturicaBook";
+/*    margin-left: 70%;*/
+    margin-top: -20%;
+
+
+}
+
+.b{
+    font-family: "FuturicaBook";
+}
+
+.desk i{
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 10px;
+    margin-right: 320px;
+}
+
+.desk p{
+    font-size: 35px;
+}
+
+/*
+#button{
+    text-align: center;
+    padding: 10px 0;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: "roboto-regular";
+    font-size: 20px;
+    transition: 1s;
+}
+
+#button:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 0.3s;
+}
+*/
+
+#button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin-left: 100%;
+    margin-top: -4%;
+  font-family: 'FuturicaBook', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+}
+#button:hover {
+
+  border: 1px black solid;
+
+
+}
+

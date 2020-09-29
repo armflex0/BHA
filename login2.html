@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>РЕГЕСТРАЦИЯ</title>
+	<link rel="stylesheet" href="css/style2.css" media="screen" type="text/css" />
+	
+	<link rel="shortcut icon" href="img/icons/favicon.png" type="image/png">
+</head>
+<body>
+
+
+
+    <div id="login">
+        <form action="javascript:void(0);" method="get">
+            <fieldset class="clearfix">
+                <p><span class="fontawesome-user"></span><input type="text" value="Логин" onBlur="if(this.value == '') this.value = 'Логин'" onFocus="if(this.value == 'Логин') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+                <p><span class="fontawesome-lock"></span><input type="password"  value="Пароль" onBlur="if(this.value == '') this.value = 'Пароль'" onFocus="if(this.value == 'Пароль') this.value = ''" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+                <p><input type="submit" onClick='location.href="login.html"' value="ЗАРЕГЕСТРИРОВАТЬСЯ"></p>
+            </fieldset>
+        </form>
+        
+    </div>
+</body>
+</html>
